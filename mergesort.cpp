@@ -21,7 +21,7 @@ int main()
             int mid = left + size;
             int right = left + 2 * size;
 
-            if(mid > n);
+            if(mid > n)
                 mid = n;
 
             if(right > n)

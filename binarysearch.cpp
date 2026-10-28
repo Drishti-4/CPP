@@ -16,16 +16,16 @@ for(i = 0 ; i<n ; i++) {
 
     while ( low <= high) 
     { 
-       mid = (low + high) /2 ;  
+       mid = (low + high) / 2 ;  
             if(a[mid] == key){
                 cout << "element found at position:" << mid+1 << endl;
             return 0;
         }
         else if(a[mid] < key ){
-            mid = low + 1;
+            low = mid + 1;
         }
         else {
-            mid = high - 1;
+            high = mid - 1;
         }
     }
 cout << "element not found";
